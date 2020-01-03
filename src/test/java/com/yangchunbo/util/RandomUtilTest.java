@@ -12,6 +12,8 @@ public class RandomUtilTest {
 			RandomUtil.random(1, 3);
 		}
 		
+				
+		
 	}
 
 	@Test
