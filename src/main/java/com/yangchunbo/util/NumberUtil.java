@@ -11,7 +11,7 @@ public class NumberUtil {
 	/**
 	 * 
 	 * @Title: isNumber 
-	 * @Description: 判断是否是数字
+	 * @Description: 判断是否是数字（正负数，小数，整数）
 	 * @param src
 	 * @return
 	 * @return: boolean

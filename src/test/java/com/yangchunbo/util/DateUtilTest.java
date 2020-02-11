@@ -25,6 +25,9 @@ public class DateUtilTest {
 	@Test
 	public void testInitMonth() {
 		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		
+		
+		
 		Date date = DateUtil.initMonth(new Date());
 		System.out.println(df.format(date));
 	}

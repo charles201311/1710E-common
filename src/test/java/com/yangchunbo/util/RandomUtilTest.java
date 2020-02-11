@@ -28,7 +28,7 @@ public class RandomUtilTest {
 
 	@Test
 	public void testRandomString() {
-		String string = RandomUtil.randomString(4);
+		String string = RandomUtil.randomString(6);
 		System.out.println(string);
 	}
 
