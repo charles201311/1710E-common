@@ -13,6 +13,22 @@ import java.util.Random;
  */
 public class DateUtil {
 	
+	
+	
+	 //把传入的日期向前 推减24 个小时。 即 1天
+	public static Date subDate(Date date) {
+		//用当前系统时间去实例化一个日历类
+		Calendar c = Calendar.getInstance();
+		//用传入的日期示例化日历类
+		c.setTime(date);
+		
+		//借助日历类，减去1天
+		c.add(Calendar.DATE, -1);
+		
+		return c.getTime();
+		
+	}
+	
 	//获取一个月的月初 如 ：2020-01-01 00:00:00
 	public static Date initMonth(Date date) {
 		//获取一个日期类

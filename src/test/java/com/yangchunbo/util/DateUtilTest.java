@@ -9,6 +9,17 @@ import org.junit.Test;
 
 public class DateUtilTest {
 
+	
+	
+	
+	@Test
+	public void testSubDate() {
+		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		Date date = DateUtil.subDate(new Date());
+		String format = df.format(date);
+		System.out.println(format);
+		
+	}
 	@Test
 	public void testRandomDate() {
 		//System.out.println(new Date(0));
